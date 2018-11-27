@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <section class="nav-bar">
+    <div class="home-button nav-icon">
+      <a href="#">
+        <img src="./assets/home-icon.svg" alt="">
+        <h1>Home</h1>
+      </a>
+    </div>
+    <div class="contacts-button nav-icon">
+      <a href="#">
+        <img src="./assets/contacts-icon.svg" alt="">
+        <h1>Contacts</h1>
+      </a>
+    </div>
+    <div class="dialing-button nav-icon">
+      <a href="#">
+        <img src="./assets/dialing-icon.svg" alt="">
+        <h1>Dialing</h1>
+      </a>
+    </div>
+  </section>
+  <section class="left-nav-bar">
+    <div class="settings-bar">
+      <img src="./assets/white-settings-icon.svg" alt="">
+    </div>
+    <div class="light-blue-area">
+      <ul class="folder-list">
+        <li>
+          <img src="./assets/folder-icon-white.svg" alt="">
+          <p>Ossoff List</p>
+        </li>
+        <li>
+          <img src="./assets/folder-icon-white.svg" alt="">
+          <p>Doug Jones List</p>
+        </li>
+        <li>
+          <img src="./assets/folder-icon-white.svg" alt="">
+          <p>Pledged - Email needed</p>
+        </li>
+        <li>
+          <img src="./assets/folder-icon-white.svg" alt="">
+          <p>Pledged - Email Sent</p>
+        </li>
+        <li>
+          <img src="./assets/folder-icon-white.svg" alt="">
+          <p>Other Follow up - Email Needed</p>
+        </li>
+        <li>
+          <img src="./assets/folder-icon-white.svg" alt="">
+          <p>Other Follow Up - Email Sent</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="contacts-area">
+    <div class="settings-bar">
+      <select name="move" id="move">
+        <option value="ossoff_list">Ossoff List</option>
+        <option value="doug_jones_list">Doug Jones List</option>
+        <option value="pledged_email_needed">Pledged - Email Needed</option>
+        <option value="pledged_email_sent">Pledged - Email Sent</option>
+        <option value="other_followup_email_needed">Other Follow Up - Email Needed</option>
+        <option value="other_follow_up_email_sent">Other Follow Up - Email Sent</option>
+      </select>
+      <form action="">
+        <select name="search-field" id="search-field">
+          <option value="last_name">Last Name</option>
+          <option value="first_name">First Name</option>
+          <option value="city">City</option>
+          <option value="state">State</option>
+          <option value="phone_number">Phone Number</option>
+        </select>
+        <input type="text" class="search-bar">
+        <input type="submit" value="Search">
+      </form>
+      <button id="advanced-search contacts-button">Advanced Search</button>
+      <button id="advanced-search contacts-button">Import</button>
+      <img src="./assets/add-user-icon.svg" class="contacts-icon" id="add-user" alt="">
+      <img src="./assets/dark-settings-icon.svg" class="contacts-icon" id="settings" alt="">
+    </div>
+    <div class="contacts-table">
+      <div class="header-bar">
+        <input type="checkbox" name="select-all" id="select-all">
+        <div class="header">First Name</div>
+        <div class="header">Last Name</div>
+        <div class="header">City</div>
+        <div class="header">State</div>
+        <div class="header">Phone Numbers</div>
+        <div class="header">Last Called</div>
+        <div class="header">Call Count</div>
+      </div>
+      <div class="data-row">
+        <input type="checkbox" name="select-contact" id="select-contact">
+        <div class="header">John</div>
+        <div class="header">Smith</div>
+        <div class="header">Alexandria</div>
+        <div class="header">VA</div>
+        <div class="header">757-203-5203</div>
+        <div class="header">10/24/2017 7:03pm</div>
+        <div class="header">3</div>
+      </div>
+      <div class="data-row">
+        <input type="checkbox" name="select-contact" id="select-contact">
+        <div class="header">Sally</div>
+        <div class="header">McLaren</div>
+        <div class="header">Alexandria</div>
+        <div class="header">VA</div>
+        <div class="header">702-212-2849</div>
+        <div class="header">10/24/2017 7:15pm</div>
+        <div class="header">1</div>
+      </div>
+      <div class="data-row">
+        <input type="checkbox" name="select-contact" id="select-contact">
+        <div class="header">Lars</div>
+        <div class="header">Dreyfus</div>
+        <div class="header">Santa Barbara</div>
+        <div class="header">CA</div>
+        <div class="header">310-827-2039</div>
+        <div class="header">10/24/2017 7:17pm</div>
+        <div class="header">1</div>
+      </div>
+      <div class="data-row">
+        <input type="checkbox" name="select-contact" id="select-contact">
+        <div class="header">MaryAnn</div>
+        <div class="header">Gail</div>
+        <div class="header">Potomac</div>
+        <div class="header">MD</div>
+        <div class="header">301-827-2039</div>
+        <div class="header">N/A</div>
+        <div class="header">0</div>
+      </div>
+      <div class="data-row">
+        <input type="checkbox" name="select-contact" id="select-contact">
+        <div class="header">Tony</div>
+        <div class="header">Discala</div>
+        <div class="header">Virginia Beach</div>
+        <div class="header">VA</div>
+        <div class="header">757-582-1920</div>
+        <div class="header">N/A</div>
+        <div class="header">0</div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
